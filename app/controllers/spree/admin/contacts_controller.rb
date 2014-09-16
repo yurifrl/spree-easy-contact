@@ -8,7 +8,7 @@ module Spree
       def create
         @contact = Contact.new(params[:contact])
         if no_bees and @contact.save
-          redirect_to root_path, :notice => t(".success_message")
+          redirect_to root_path, :notice => Spree.t("success_message")
         else
           render :new
         end

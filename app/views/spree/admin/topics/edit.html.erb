@@ -3,13 +3,13 @@
 <%= render :partial => 'spree/shared/error_messages', :locals => { :target => @topic } %>
 
 <% content_for :page_title do %>
-    <%= Spree.t(:new) %>
+    <%= Spree.t(:edit) %>
 <% end %>
 
 <%= form_for [:admin, @topic] do |f| %>
     <fieldset class="fieldset-state">
       <legend><%= Spree.t('activerecord.models.label') %></legend>
       <%= render :partial => 'form', :locals => { :f => f } %>
-      <%= render :partial => 'spree/admin/shared/new_resource_links' %>
+      <%= render :partial => 'spree/admin/shared/edit_resource_links' %>
     </fieldset>
 <% end %>

@@ -1,8 +1,12 @@
-en:
-  back_to_contacts_list: Back to contacts list
-  new_topic: Add a topic un sujet
-  go_to_topics_list: Got to topic list
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+pt-BR:
   spree:
+    back_to_contacts_list: Back to contacts list
+    new_topic: Add a topic un sujet
+    go_to_topics_list: Got to topic list
+    submit: Enviar
     topics:
       index:
         title: Topics list

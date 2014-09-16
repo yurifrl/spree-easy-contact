@@ -1,0 +1,17 @@
+Sua mensagem foi enviada
+
+========================================
+De: {{name}} ({{email}})
+Assunto: {{topic}}
+{{#order_number?}}
+    Numero do pedido: {{order_number}}
+{{/order_number?}}
+
+Mensagem:
+========================================
+{{message}}
+========================================
+--
+
+Obrigado,
+{{site_name}}
